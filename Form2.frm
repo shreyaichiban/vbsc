@@ -11,7 +11,7 @@ Begin VB.Form Form2
    ScaleWidth      =   4560
    WindowState     =   2  'Maximized
    Begin VB.CommandButton Command3 
-      Caption         =   " SUBMIT MY CV FORM"
+      Caption         =   " Submit my CV form"
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   12
@@ -25,11 +25,11 @@ Begin VB.Form Form2
       Left            =   9960
       TabIndex        =   3
       Top             =   5280
-      Width           =   4575
+      Width           =   4815
    End
    Begin VB.CommandButton Command2 
       BackColor       =   &H00000000&
-      Caption         =   "LEARN MORE ABOUT STANTON CHASE"
+      Caption         =   " Learn more about Stanton Chase"
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   12
@@ -47,7 +47,7 @@ Begin VB.Form Form2
    End
    Begin VB.CommandButton Command1 
       BackColor       =   &H00FFFFFF&
-      Caption         =   "SPEAK WITH A SENIOR CONSULTANT"
+      Caption         =   "Speak with a senior consultant"
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   12
@@ -61,17 +61,17 @@ Begin VB.Form Form2
       Left            =   9960
       TabIndex        =   1
       Top             =   2880
-      Width           =   4575
+      Width           =   4815
    End
    Begin VB.Label Label1 
-      Caption         =   " I   WOULD   LIKE   TO "
+      Caption         =   " I   would   like   to "
       BeginProperty Font 
-         Name            =   "Perpetua Titling MT"
+         Name            =   "Lucida Sans"
          Size            =   24
          Charset         =   0
-         Weight          =   700
+         Weight          =   400
          Underline       =   0   'False
-         Italic          =   -1  'True
+         Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
       Height          =   495

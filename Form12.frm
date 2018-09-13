@@ -11,22 +11,46 @@ Begin VB.Form Form12
    ScaleWidth      =   4560
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
+   Begin VB.CommandButton Command3 
+      Caption         =   " >>NEXT"
+      Height          =   495
+      Left            =   11520
+      TabIndex        =   3
+      Top             =   7680
+      Width           =   1215
+   End
+   Begin VB.CommandButton Command2 
+      Caption         =   "<<HOME PAGE"
+      Height          =   495
+      Left            =   8520
+      TabIndex        =   2
+      Top             =   7680
+      Width           =   1335
+   End
+   Begin VB.CommandButton Command1 
+      Caption         =   " <<BACK"
+      Height          =   495
+      Left            =   5640
+      TabIndex        =   1
+      Top             =   7680
+      Width           =   1215
+   End
    Begin VB.Label Label1 
       Caption         =   $"Form12.frx":0000
       BeginProperty Font 
-         Name            =   "Perpetua Titling MT"
-         Size            =   14.25
+         Name            =   "Maiandra GD"
+         Size            =   20.25
          Charset         =   0
-         Weight          =   300
+         Weight          =   400
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   2775
-      Left            =   4920
+      Height          =   3375
+      Left            =   4560
       TabIndex        =   0
       Top             =   3240
-      Width           =   8775
+      Width           =   9615
    End
 End
 Attribute VB_Name = "Form12"

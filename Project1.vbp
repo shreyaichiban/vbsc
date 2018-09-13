@@ -15,6 +15,7 @@ Form=Form12.frm
 Form=Form13.frm
 IconForm="Form1"
 Startup="Form1"
+ExeName32="Project1.exe"
 Command32=""
 Name="Project1"
 HelpContextID="0"

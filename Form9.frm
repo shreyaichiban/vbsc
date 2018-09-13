@@ -92,18 +92,18 @@ Begin VB.Form Form9
    Begin VB.Label Label1 
       Caption         =   $"Form9.frx":0000
       BeginProperty Font 
-         Name            =   "Perpetua Titling MT"
-         Size            =   14.25
+         Name            =   "Maiandra GD"
+         Size            =   20.25
          Charset         =   0
-         Weight          =   300
+         Weight          =   400
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   2655
+      Height          =   3855
       Left            =   4680
       TabIndex        =   1
-      Top             =   3240
+      Top             =   2280
       Width           =   9495
    End
 End

@@ -57,19 +57,19 @@ Begin VB.Form Form3
       BackColor       =   &H8000000B&
       Caption         =   $"Form3.frx":0000
       BeginProperty Font 
-         Name            =   "Perpetua Titling MT"
-         Size            =   20.25
+         Name            =   "Maiandra GD"
+         Size            =   21.75
          Charset         =   0
-         Weight          =   700
+         Weight          =   400
          Underline       =   0   'False
-         Italic          =   -1  'True
+         Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   5775
+      Height          =   4815
       Left            =   3360
       TabIndex        =   0
-      Top             =   2280
-      Width           =   12135
+      Top             =   2160
+      Width           =   12015
    End
 End
 Attribute VB_Name = "Form3"

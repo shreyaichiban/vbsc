@@ -43,10 +43,10 @@ Begin VB.Form Form4
       Width           =   1215
    End
    Begin VB.Label Label1 
-      Caption         =   "SELECT THE LOCATIONS CONVENIENT TO YOU "
+      Caption         =   "        Select the location convinient to you "
       BeginProperty Font 
-         Name            =   "MS Sans Serif"
-         Size            =   13.5
+         Name            =   "Maiandra GD"
+         Size            =   15.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
@@ -57,7 +57,7 @@ Begin VB.Form Form4
       Left            =   8280
       TabIndex        =   0
       Top             =   1920
-      Width           =   7335
+      Width           =   7095
    End
 End
 Attribute VB_Name = "Form4"
@@ -93,3 +93,4 @@ Form5.List1.AddItem ("NEW DELHI")
 Form5.List2.AddItem ("MALA CHAWLA")
 Form5.Show
 End Sub
+

@@ -18,7 +18,7 @@ Begin VB.Form Form5
       Width           =   1455
    End
    Begin VB.CommandButton Command4 
-      Caption         =   "FO"
+      Caption         =   " VIEW MALA'S PROFILE"
       Height          =   495
       Left            =   10920
       TabIndex        =   7
