@@ -1,6 +1,6 @@
 Type=Exe
 Form=Form1.frm
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
 Form=Form2.frm
 Form=Form3.frm
 Form=Form4.frm
@@ -13,6 +13,7 @@ Form=Form10.frm
 Form=Form11.frm
 Form=Form12.frm
 Form=Form13.frm
+IconForm="Form1"
 Startup="Form1"
 Command32=""
 Name="Project1"

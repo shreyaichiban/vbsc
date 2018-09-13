@@ -6,8 +6,8 @@ Begin VB.Form Form13
    ClientTop       =   465
    ClientWidth     =   4560
    LinkTopic       =   "Form13"
-   ScaleHeight     =   3015
-   ScaleWidth      =   4560
+   ScaleHeight     =   10215
+   ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
    Begin VB.Label Label1 
