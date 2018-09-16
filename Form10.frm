@@ -16,8 +16,8 @@ Begin VB.Form Form10
       Strikethrough   =   0   'False
    EndProperty
    LinkTopic       =   "Form10"
-   ScaleHeight     =   10215
-   ScaleWidth      =   18960
+   ScaleHeight     =   3015
+   ScaleWidth      =   4560
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
    Begin VB.CommandButton Command3 
@@ -87,7 +87,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub Command1_Click()
-Form10.Show
+Form9.Show
 End Sub
 
 Private Sub Command2_Click()

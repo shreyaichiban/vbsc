@@ -7,12 +7,12 @@ Begin VB.Form Form11
    ClientTop       =   465
    ClientWidth     =   4560
    LinkTopic       =   "Form11"
-   ScaleHeight     =   10215
-   ScaleWidth      =   18960
+   ScaleHeight     =   3015
+   ScaleWidth      =   4560
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
    Begin VB.CommandButton Command3 
-      Caption         =   "Command3"
+      Caption         =   " >>NEXT"
       Height          =   495
       Left            =   12000
       TabIndex        =   3
@@ -20,15 +20,15 @@ Begin VB.Form Form11
       Width           =   1215
    End
    Begin VB.CommandButton Command2 
-      Caption         =   "Command2"
+      Caption         =   " <<HOME PAGE"
       Height          =   495
       Left            =   8760
       TabIndex        =   2
       Top             =   6720
-      Width           =   1215
+      Width           =   1335
    End
    Begin VB.CommandButton Command1 
-      Caption         =   "Command1"
+      Caption         =   " <<BACK"
       Height          =   495
       Left            =   5760
       TabIndex        =   1

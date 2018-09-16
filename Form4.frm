@@ -6,8 +6,8 @@ Begin VB.Form Form4
    ClientTop       =   465
    ClientWidth     =   4560
    LinkTopic       =   "Form4"
-   ScaleHeight     =   10215
-   ScaleWidth      =   18960
+   ScaleHeight     =   3015
+   ScaleWidth      =   4560
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
    Begin VB.CommandButton Command2 
@@ -94,6 +94,3 @@ Form5.List2.AddItem ("MALA CHAWLA")
 Form5.Show
 End Sub
 
-Private Sub Label1_Click()
-
-End Sub

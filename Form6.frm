@@ -16,8 +16,8 @@ Begin VB.Form Form6
       Strikethrough   =   0   'False
    EndProperty
    LinkTopic       =   "Form6"
-   ScaleHeight     =   10215
-   ScaleWidth      =   18960
+   ScaleHeight     =   3015
+   ScaleWidth      =   4560
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
    Begin VB.CommandButton Command1 
@@ -100,6 +100,3 @@ Private Sub Command1_Click()
 Form5.Show
 End Sub
 
-Private Sub Label1_Click()
-
-End Sub
