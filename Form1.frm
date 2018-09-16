@@ -10,24 +10,25 @@ Begin VB.Form Form1
    ScaleHeight     =   8160
    ScaleWidth      =   15360
    StartUpPosition =   3  'Windows Default
-   Begin VB.PictureBox Picture1 
-      Height          =   1695
-      Index           =   1
-      Left            =   5640
-      Picture         =   "Form1.frx":0000
-      ScaleHeight     =   1635
-      ScaleWidth      =   5115
-      TabIndex        =   1
-      Top             =   2760
-      Width           =   5175
-   End
    Begin VB.CommandButton Command1 
       Caption         =   " START"
       Height          =   495
       Left            =   7440
-      TabIndex        =   0
+      TabIndex        =   1
       Top             =   5280
       Width           =   1215
+   End
+   Begin VB.PictureBox Picture1 
+      BackColor       =   &H00FFC0C0&
+      Height          =   1695
+      Index           =   0
+      Left            =   3360
+      Picture         =   "Form1.frx":0000
+      ScaleHeight     =   1635
+      ScaleWidth      =   9555
+      TabIndex        =   0
+      Top             =   2280
+      Width           =   9615
    End
 End
 Attribute VB_Name = "Form1"
@@ -39,4 +40,3 @@ Attribute VB_Exposed = False
 Private Sub Command1_Click()
 Form2.Show
 End Sub
-

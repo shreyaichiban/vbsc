@@ -6,8 +6,8 @@ Begin VB.Form Form4
    ClientTop       =   465
    ClientWidth     =   4560
    LinkTopic       =   "Form4"
-   ScaleHeight     =   3015
-   ScaleWidth      =   4560
+   ScaleHeight     =   10215
+   ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
    Begin VB.CommandButton Command2 
@@ -43,7 +43,7 @@ Begin VB.Form Form4
       Width           =   1215
    End
    Begin VB.Label Label1 
-      Caption         =   "        Select the location convinient to you "
+      Caption         =   "SELECT THE LOCATIONS CONVENIENT TO YOU "
       BeginProperty Font 
          Name            =   "Maiandra GD"
          Size            =   15.75
@@ -57,7 +57,7 @@ Begin VB.Form Form4
       Left            =   8280
       TabIndex        =   0
       Top             =   1920
-      Width           =   7095
+      Width           =   7335
    End
 End
 Attribute VB_Name = "Form4"
@@ -94,3 +94,6 @@ Form5.List2.AddItem ("MALA CHAWLA")
 Form5.Show
 End Sub
 
+Private Sub Label1_Click()
+
+End Sub

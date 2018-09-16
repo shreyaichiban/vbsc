@@ -6,8 +6,8 @@ Begin VB.Form Form5
    ClientTop       =   465
    ClientWidth     =   4560
    LinkTopic       =   "Form5"
-   ScaleHeight     =   3015
-   ScaleWidth      =   4560
+   ScaleHeight     =   10215
+   ScaleWidth      =   18960
    WindowState     =   2  'Maximized
    Begin VB.CommandButton Command5 
       Caption         =   " <<HOME PAGE"
@@ -18,7 +18,7 @@ Begin VB.Form Form5
       Width           =   1455
    End
    Begin VB.CommandButton Command4 
-      Caption         =   " VIEW MALA'S PROFILE"
+      Caption         =   " VIEW MALA""S PROFILE"
       Height          =   495
       Left            =   10920
       TabIndex        =   7

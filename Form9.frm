@@ -16,8 +16,8 @@ Begin VB.Form Form9
       Strikethrough   =   0   'False
    EndProperty
    LinkTopic       =   "Form9"
-   ScaleHeight     =   3015
-   ScaleWidth      =   4560
+   ScaleHeight     =   10215
+   ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
    Begin VB.CommandButton Command4 
@@ -93,17 +93,17 @@ Begin VB.Form Form9
       Caption         =   $"Form9.frx":0000
       BeginProperty Font 
          Name            =   "Maiandra GD"
-         Size            =   20.25
+         Size            =   18
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   3855
-      Left            =   4680
+      Height          =   3015
+      Left            =   4560
       TabIndex        =   1
-      Top             =   2280
+      Top             =   2640
       Width           =   9495
    End
 End
@@ -112,6 +112,7 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+
 Private Sub Command2_Click()
 Form3.Show
 End Sub

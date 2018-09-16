@@ -1,17 +1,36 @@
 VERSION 5.00
 Begin VB.Form Form6 
+   BackColor       =   &H8000000D&
    Caption         =   "Form6"
    ClientHeight    =   3015
    ClientLeft      =   120
    ClientTop       =   465
    ClientWidth     =   4560
+   BeginProperty Font 
+      Name            =   "Maiandra GD"
+      Size            =   15.75
+      Charset         =   0
+      Weight          =   400
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
    LinkTopic       =   "Form6"
-   ScaleHeight     =   3015
-   ScaleWidth      =   4560
+   ScaleHeight     =   10215
+   ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
    Begin VB.CommandButton Command1 
       Caption         =   " <<BACK"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   1800
       TabIndex        =   3
@@ -19,6 +38,15 @@ Begin VB.Form Form6
       Width           =   1215
    End
    Begin VB.PictureBox Picture1 
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   3735
       Left            =   7320
       Picture         =   "Form6.frx":0000
@@ -48,18 +76,18 @@ Begin VB.Form Form6
    Begin VB.Label Label1 
       Caption         =   $"Form6.frx":2F88E
       BeginProperty Font 
-         Name            =   "Perpetua Titling MT"
-         Size            =   14.25
+         Name            =   "Maiandra GD"
+         Size            =   18
          Charset         =   0
-         Weight          =   300
+         Weight          =   400
          Underline       =   0   'False
-         Italic          =   -1  'True
+         Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   3735
+      Height          =   4455
       Left            =   3840
       TabIndex        =   1
-      Top             =   5760
+      Top             =   5640
       Width           =   11295
    End
 End
@@ -72,3 +100,6 @@ Private Sub Command1_Click()
 Form5.Show
 End Sub
 
+Private Sub Label1_Click()
+
+End Sub

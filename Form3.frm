@@ -16,8 +16,8 @@ Begin VB.Form Form3
       Strikethrough   =   0   'False
    EndProperty
    LinkTopic       =   "Form3"
-   ScaleHeight     =   3015
-   ScaleWidth      =   4560
+   ScaleHeight     =   10215
+   ScaleWidth      =   18960
    WindowState     =   2  'Maximized
    Begin VB.CommandButton Command1 
       Caption         =   ">>NEXT"
@@ -58,18 +58,18 @@ Begin VB.Form Form3
       Caption         =   $"Form3.frx":0000
       BeginProperty Font 
          Name            =   "Maiandra GD"
-         Size            =   21.75
+         Size            =   26.25
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   4815
+      Height          =   6375
       Left            =   3360
       TabIndex        =   0
-      Top             =   2160
-      Width           =   12015
+      Top             =   2040
+      Width           =   12135
    End
 End
 Attribute VB_Name = "Form3"

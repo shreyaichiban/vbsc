@@ -1,5 +1,6 @@
 VERSION 5.00
 Begin VB.Form Form7 
+   BackColor       =   &H8000000D&
    Caption         =   "Form7"
    ClientHeight    =   3015
    ClientLeft      =   120
@@ -7,8 +8,8 @@ Begin VB.Form Form7
    ClientWidth     =   4560
    LinkTopic       =   "Form7"
    Picture         =   "Form7.frx":0000
-   ScaleHeight     =   3015
-   ScaleWidth      =   4560
+   ScaleHeight     =   10215
+   ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
    Begin VB.CommandButton Command1 

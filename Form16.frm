@@ -1,71 +1,75 @@
 VERSION 5.00
-Begin VB.Form Form11 
+Begin VB.Form Form16 
    BackColor       =   &H8000000D&
-   Caption         =   "Form11"
+   Caption         =   "Form16"
    ClientHeight    =   3015
    ClientLeft      =   120
    ClientTop       =   465
    ClientWidth     =   4560
-   LinkTopic       =   "Form11"
+   LinkTopic       =   "Form16"
    ScaleHeight     =   10215
    ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
-   Begin VB.CommandButton Command3 
-      Caption         =   "Command3"
-      Height          =   495
-      Left            =   12000
-      TabIndex        =   3
-      Top             =   6720
-      Width           =   1215
-   End
    Begin VB.CommandButton Command2 
-      Caption         =   "Command2"
+      Caption         =   " <<HOME PAGE"
       Height          =   495
-      Left            =   8760
+      Left            =   8040
+      TabIndex        =   3
+      Top             =   5520
+      Width           =   1335
+   End
+   Begin VB.TextBox Text1 
+      Height          =   615
+      Left            =   11280
       TabIndex        =   2
-      Top             =   6720
-      Width           =   1215
+      Text            =   " "
+      Top             =   1800
+      Width           =   3015
    End
    Begin VB.CommandButton Command1 
-      Caption         =   "Command1"
+      Caption         =   " >>NEXT"
       Height          =   495
-      Left            =   5760
-      TabIndex        =   1
-      Top             =   6720
+      Left            =   10200
+      TabIndex        =   0
+      Top             =   5520
       Width           =   1215
    End
    Begin VB.Label Label1 
-      Caption         =   $"Form11.frx":0000
+      Caption         =   " Enter your first name"
       BeginProperty Font 
          Name            =   "Maiandra GD"
-         Size            =   18
+         Size            =   15.75
          Charset         =   0
          Weight          =   400
          Underline       =   0   'False
          Italic          =   0   'False
          Strikethrough   =   0   'False
       EndProperty
-      Height          =   3495
-      Left            =   5280
-      TabIndex        =   0
-      Top             =   2520
-      Width           =   8655
+      Height          =   495
+      Left            =   3840
+      TabIndex        =   1
+      Top             =   1920
+      Width           =   3615
    End
 End
-Attribute VB_Name = "Form11"
+Attribute VB_Name = "Form16"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub Command1_Click()
-Form10.Show
+If Text1.Text = ("") Then
+MsgBox ("your name is mandatory")
+Else
+Form17.Show
+End If
 End Sub
 
 Private Sub Command2_Click()
 Form2.Show
 End Sub
 
-Private Sub Command3_Click()
-Form12.Show
+Private Sub Form_Load()
+Text1.Text = ""
 End Sub

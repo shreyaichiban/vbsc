@@ -6,13 +6,31 @@ Begin VB.Form Form10
    ClientLeft      =   120
    ClientTop       =   465
    ClientWidth     =   4560
+   BeginProperty Font 
+      Name            =   "Maiandra GD"
+      Size            =   18
+      Charset         =   0
+      Weight          =   400
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
    LinkTopic       =   "Form10"
-   ScaleHeight     =   3015
-   ScaleWidth      =   4560
+   ScaleHeight     =   10215
+   ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
    Begin VB.CommandButton Command3 
       Caption         =   " >>NEXT"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   11520
       TabIndex        =   3
@@ -21,6 +39,15 @@ Begin VB.Form Form10
    End
    Begin VB.CommandButton Command2 
       Caption         =   "<<HOME PAGE"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   8640
       TabIndex        =   2
@@ -30,6 +57,15 @@ Begin VB.Form Form10
    Begin VB.CommandButton Command1 
       BackColor       =   &H00000000&
       Caption         =   "<<BACK"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
       Height          =   495
       Left            =   5400
       TabIndex        =   1
@@ -38,20 +74,11 @@ Begin VB.Form Form10
    End
    Begin VB.Label Label1 
       Caption         =   $"Form10.frx":0000
-      BeginProperty Font 
-         Name            =   "Maiandra GD"
-         Size            =   20.25
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
       Height          =   3735
-      Left            =   4680
+      Left            =   4920
       TabIndex        =   0
-      Top             =   2640
-      Width           =   9375
+      Top             =   2760
+      Width           =   9135
    End
 End
 Attribute VB_Name = "Form10"
